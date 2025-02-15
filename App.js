@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, Button, Image, TextInput, StyleSheet } from "react-native"; 
 import RNPickerSelect from "react-native-picker-select";
 
-const API_KEY = "67a001754c9a0c25146fa2424c3ccb8d";
+const API_KEY = "YOUR_API_KEY_HERE";
 
 const WeatherApp = () => {
   const [city, setCity] = useState("Helsinki");
